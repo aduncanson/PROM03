@@ -61,6 +61,7 @@ def get_roi_for_element(json_return, corrected_scan_image, qr_location, attribut
         print("Field checked: {}".format(attribute_name))
         print("Expected value: {}".format(expect_value))
         eval("AuditCases.AA_{}.Main(json_return, img_roi, expect_value)".format(attribute_name))
+        print("-----")
         
         cv2.imshow('img_roi_{}'.format(attribute_name), img_roi)
         
