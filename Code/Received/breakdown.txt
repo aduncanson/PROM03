@@ -1,0 +1,9 @@
+987654321012345.tiff - pass
+987654321012346.tiff - fail - not signed
+987654321012347.tiff - fail - altered
+987654321012348.tiff - fail - name
+987654321012349.tiff - fail - address
+987654321012350.tiff - fail - account name
+987654321012351.tiff - fail - SC
+987654321012352.tiff - fail - AN
+987654321012353.tiff - fail - total amount
